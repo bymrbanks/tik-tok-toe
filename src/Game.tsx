@@ -5,7 +5,7 @@ import XIcon from "./XIcon";
 import { toast, ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 
-const SERVER_URL = "http://localhost:3000"; // Use your server's URL
+const SERVER_URL = "https://tik-tok-toe-server-production.up.railway.app/"; // Use your server's URL
 
 type GameState = {
   id: string;
