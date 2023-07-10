@@ -43,7 +43,7 @@ function TicTacToe() {
           data.winner === socket.current?.id ? "You won!" : "You lost."
         }`,
         {
-          position: "top-right",
+          position: "bottom-center",
           autoClose: 3000,
           hideProgressBar: false,
           closeOnClick: true,
@@ -61,7 +61,7 @@ function TicTacToe() {
           winner === socket.current?.id ? "You won!" : "You lost."
         }`,
         {
-          position: "top-right",
+          position: "bottom-center",
           autoClose: 3000,
           hideProgressBar: false,
           closeOnClick: true,
@@ -79,7 +79,7 @@ function TicTacToe() {
 
     socket.current.on("draw", (data: GameState) => {
       toast.warning("Round Over! It was a draw.", {
-        position: "top-right",
+        position: "bottom-center",
         autoClose: 3000,
         hideProgressBar: false,
         closeOnClick: true,
