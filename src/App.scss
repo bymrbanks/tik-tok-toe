@@ -1,8 +1,8 @@
 #root {
   max-width: 1280px;
   margin: 0 auto;
-  padding: 2rem;
   text-align: center;
+  padding: 5%;
 }
 
 .logo {
@@ -110,8 +110,10 @@ body {
   gap: 20px;
   .cell-row {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     gap: 11px;
+    flex-wrap: nowrap;
+    width: 100%;
   }
   .cell {
     display: flex;
