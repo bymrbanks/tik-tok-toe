@@ -1,6 +1,6 @@
-import React, { useEffect, useRef, useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import io, { Socket } from "socket.io-client";
-import OIcon from "./oIcon";
+import OIcon from "./OIcon";
 import XIcon from "./XIcon";
 import { toast, ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
